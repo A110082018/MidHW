@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 
     private CharacterController controller;
 
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -62,4 +63,15 @@ public class Player : MonoBehaviour
         // 產生出子彈
         Instantiate(bulletPrefab, firePoint.transform.position, transform.rotation);
     }
+
+    IEnumerator KeepShooting()
+    {
+        while(true)
+        {
+            Fire();
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
+    
+
 }
