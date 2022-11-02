@@ -10,15 +10,34 @@ public class Player : MonoBehaviour
     public GameObject bulletPrefab;
 
     private CharacterController controller;
+    private GameObject focusEnemy;
 
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
+
+        //corutine-shooting
+       StartCoroutine(KeepShooting());
     }
 
     void Update()
     {
+        // find target
+        GameObject[] enemys = GameObject.FindGameObjectsWithTag("Enemy");
+
+        float miniDist = 9999;
+        foreach (GameObject enemy in enemys)
+        {
+            float d = Vector3.Distance(transform.position, enemy.transform.position);
+
+            if (d < miniDist)
+            {
+                miniDist = d;
+                focusEnemy = enemy;
+            }
+        }
+
         // 取得方向鍵輸入
         // float h = Input.GetAxis("Horizontal");
         // float v = Input.GetAxis("Vertical");
@@ -40,6 +59,16 @@ public class Player : MonoBehaviour
             // 使用 Lerp 漸漸轉向
             Quaternion targetRotation = Quaternion.Euler(0, faceAngle, 0);
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, 0.3f);
+        }
+
+        //focus enemy
+        else
+        {
+            if (focusEnemy)
+            {
+                var targetRotation = Quaternion.LookRotation(focusEnemy.transform.position - transform.position);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 20 * Time.deltaTime);
+            }
         }
 
         // 地心引力 (y)
