@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
         {
             gameObject.SetActive(false);
             Destroy(gameObject);
+            Debug.Log("ouch!");
 
         }
     }
