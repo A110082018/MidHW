@@ -109,7 +109,11 @@ GameObject:
   - component: {fileID: 6777070624520225243}
   - component: {fileID: 3332793181433353768}
   - component: {fileID: 7887740421481487250}
+<<<<<<< HEAD
   - component: {fileID: 1057285320415106449}
+=======
+  - component: {fileID: 8346903545835369499}
+>>>>>>> origin/art
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Bullet
@@ -162,7 +166,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+<<<<<<< HEAD
 --- !u!96 &1057285320415106449
+=======
+--- !u!96 &8346903545835369499
+>>>>>>> origin/art
 TrailRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
@@ -204,7 +212,11 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
   m_Time: 5
+=======
+  m_Time: 3
+>>>>>>> origin/art
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -212,8 +224,13 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
+<<<<<<< HEAD
         time: 0.009830475
         value: 0.67521286
+=======
+        time: 0.019180298
+        value: 0.47302818
+>>>>>>> origin/art
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -221,6 +238,7 @@ TrailRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+<<<<<<< HEAD
         time: 0.20382445
         value: 0.55846417
         inSlope: -1.5389158
@@ -232,6 +250,10 @@ TrailRenderer:
       - serializedVersion: 3
         time: 0.39646134
         value: 0.14529914
+=======
+        time: 0.36189255
+        value: 0.19087139
+>>>>>>> origin/art
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -239,6 +261,7 @@ TrailRenderer:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
+<<<<<<< HEAD
         time: 0.72280467
         value: 0.025641024
         inSlope: 0.8051073
@@ -246,6 +269,15 @@ TrailRenderer:
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.32530117
+=======
+        time: 0.8203324
+        value: 0.62655604
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+>>>>>>> origin/art
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -254,7 +286,11 @@ TrailRenderer:
       serializedVersion: 2
       key0: {r: 0.7340097, g: 0.82027346, b: 0.8396226, a: 1}
       key1: {r: 0.9245283, g: 0.65124005, b: 0.6846104, a: 1}
+<<<<<<< HEAD
       key2: {r: 0, g: 0, b: 0, a: 0}
+=======
+      key2: {r: 0, g: 0, b: 0, a: 1}
+>>>>>>> origin/art
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
       key5: {r: 0, g: 0, b: 0, a: 0}
@@ -270,7 +306,11 @@ TrailRenderer:
       ctime7: 0
       atime0: 0
       atime1: 65535
+<<<<<<< HEAD
       atime2: 0
+=======
+      atime2: 65535
+>>>>>>> origin/art
       atime3: 0
       atime4: 0
       atime5: 0

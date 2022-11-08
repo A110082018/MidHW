@@ -1,0 +1,10 @@
+diff a/Assets/Prefabs/Arrow.prefab b/Assets/Prefabs/Arrow.prefab	(rejected hunks)
+@@ -204,7 +204,7 @@
+   m_SortingLayerID: 0
+   m_SortingLayer: 0
+   m_SortingOrder: 0
+-  m_Time: 1
++  m_Time: 3
+   m_Parameters:
+     serializedVersion: 3
+     widthMultiplier: 1
