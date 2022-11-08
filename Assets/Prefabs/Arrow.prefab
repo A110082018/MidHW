@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4072543352687628866}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,10 +110,14 @@ GameObject:
   - component: {fileID: 3332793181433353768}
   - component: {fileID: 7887740421481487250}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1057285320415106449}
 =======
   - component: {fileID: 8346903545835369499}
 >>>>>>> origin/art
+=======
+  - component: {fileID: 3200208833362921005}
+>>>>>>> origin/enemy-HP
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Bullet
@@ -167,18 +171,24 @@ Rigidbody:
   m_Constraints: 112
   m_CollisionDetection: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!96 &1057285320415106449
 =======
 --- !u!96 &8346903545835369499
 >>>>>>> origin/art
 TrailRenderer:
   serializedVersion: 2
+=======
+--- !u!114 &3200208833362921005
+MonoBehaviour:
+>>>>>>> origin/enemy-HP
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6133920634788951114}
   m_Enabled: 1
+<<<<<<< HEAD
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -328,3 +338,9 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f4b36c30df6ca4c902a07921368c8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> origin/enemy-HP
